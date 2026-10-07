@@ -1,0 +1,63 @@
+# Supply Chain Cost Optimization Engine - Package Manifest
+
+# Core Python source files
+engine/
+api/
+dashboard/
+
+# Documentation
+README.md
+Supply Chain Cost Optimization Engine (DP).md
+
+# Python dependencies and configuration
+requirements.txt
+pyproject.toml
+
+# Tests and validation
+tests/
+
+# Data and examples (if any)
+sample_data/
+
+# License and acknowledgments
+LICENSE
+AUTHORS
+CONTRIBUTING.md
+
+# Configuration templates
+.env.example
+
+# Build artifacts (should be excluded)
+build/
+*.egg-info/
+dist/
+*.pyc
+*.pyo
+__pycache__/
+*.so
+*.pyd
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+.DS_Store
+
+# IDE and development files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# GitHub Actions workflows
+.github/
+*.workflow
+
+# Docker configuration (optional)
+Dockerfile
+docker-compose.yml
+
+# CI/CD configuration (optional)
+.gitlab-ci.yml
+.azure-pipelines.yml
